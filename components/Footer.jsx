@@ -19,7 +19,7 @@ export default function Footer() {
         <div className={style.info}>
           <Image src={logo} alt="logo de site web" className={style.Image} />
           <p>
-            Un site web pour organiser, promouvoir et découvrir des ventes de
+            site web pour organiser, promouvoir et découvrir des ventes de
             garage locales, favorisant la réutilisation et le lien
             communautaire.
           </p>
