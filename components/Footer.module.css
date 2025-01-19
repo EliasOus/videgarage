@@ -3,7 +3,7 @@
   align-content: center;
   justify-content: center;
   background-color: #ffb623;
-  padding: 50px 100px;
+  padding: 40px 100px;
   gap: 30px;
 }
 
@@ -37,4 +37,12 @@
 
 .footer div {
   width: 25%;
+}
+
+.wave img{
+    width: 100vw;
+}
+
+.wave{
+    transform: translateY(5px);
 }
