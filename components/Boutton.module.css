@@ -1,0 +1,13 @@
+.boutton {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+}
+.boutton:hover {
+    background-color: #FFB623;
+}
