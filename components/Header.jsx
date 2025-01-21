@@ -10,7 +10,7 @@ import Boutton from "@/components/Boutton";
 export default function Header() {
     return <header className={styles.header}>
         <div >
-            <Image src={logo} alt="Logo React" className={styles.Image}/>
+            <Image src={logo} alt="Logo React" className={styles.Image} />
         </div>
         <nav >
             <ul className={styles.liste}>
@@ -29,8 +29,8 @@ export default function Header() {
             </ul>
         </nav>
         <div className={styles.bouttons}>
-            <Boutton texte="S'inscrire"/>     
-            <Boutton texte="Se connecter" active={true}/>
+            <Boutton texte="S'inscrire" />
+            <Boutton texte="Se connecter" active={true} />
         </div>
     </header>
 }

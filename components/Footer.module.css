@@ -11,38 +11,41 @@
   width: 40%;
   height: 40%;
 }
+
 .info {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
 }
+
 .liens,
 .contact,
 .reseaux {
   display: flex;
   flex-direction: column;
   align-items: start;
-  gap: 10px;  
-}
-.reseaux div{
-    display: flex;
-    justify-content: start;
-    gap: 30px;
+  gap: 10px;
 }
 
-.liens a{
-    color: black;
+.reseaux div {
+  display: flex;
+  justify-content: start;
+  gap: 30px;
+}
+
+.liens a {
+  color: black;
 }
 
 .footer div {
   width: 25%;
 }
 
-.wave img{
-    width: 100vw;
+.wave img {
+  width: 100vw;
 }
 
-.wave{
-    transform: translateY(5px);
+.wave {
+  transform: translateY(5px);
 }
