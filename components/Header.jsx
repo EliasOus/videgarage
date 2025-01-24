@@ -2,14 +2,14 @@ import styles from "./Header.module.css";
 import stylesBtn from "./Boutton.module.css"
 
 import Image from "next/image";
-import logo from "@/public/Logo-black-2.png";
+import logo from "@/public/Logo-white.png";
 
 import Boutton from "@/components/Boutton";
 
 
 export default function Header() {
     return <header className={styles.header}>
-        <div >
+        <div className={styles.logo}>
             <Image src={logo} alt="Logo React" className={styles.Image} />
         </div>
         <nav >

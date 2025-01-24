@@ -11,7 +11,7 @@ import style from "./Footer.module.css";
 
 export default function Footer() {
   return (
-    <>
+    <footer>
       <div className={style.wave}>
         <Image src={wave} alt="image" />
       </div>
@@ -29,7 +29,7 @@ export default function Footer() {
           <h3>Liens Pratiques :</h3>
           <a href="#">Accueil</a>
           <a href="#">À propos</a>
-          <a href="#">Evenements</a>
+          <a href="">Evenements</a>
           <a href="#">FAQ</a>
         </div>
         <div className={style.reseaux}>
@@ -54,6 +54,6 @@ export default function Footer() {
           <h3>contact@videgarage.com</h3>
         </div>
       </div>
-    </>
+    </footer>
   );
 }
