@@ -7,7 +7,7 @@
   overflow: hidden;
   border-radius: 20px;
   box-shadow: 2px 5px 20px 4px rgba(0, 0, 0, 0.2);
-  margin: 0px 20px;
+  margin: 20px 20px;
 }
 
 .carte img {
@@ -39,5 +39,5 @@
 }
 .formeImage {
   position: absolute;
-  bottom: -1.4%;
+  bottom: -1.5%;
 }

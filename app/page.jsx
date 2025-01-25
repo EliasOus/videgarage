@@ -1,9 +1,9 @@
 import Image from "next/image";
 import banner from "@/public/banner.png";
 import arcBanner from "@/public/arc-banner.png";
-import carte1 from "@/public/cart1.png";
-import carte2 from "@/public/cart2.png";
-import carte3 from "@/public/cart3.png";
+import carte1 from "@/public/carte1.png";
+import carte2 from "@/public/carte2.png";
+import carte3 from "@/public/carte3.png";
 
 import style from "./page.module.css";
 import styleBouton from "@/components/Boutton.module.css";
