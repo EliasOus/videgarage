@@ -40,7 +40,7 @@ export default function Accueil() {
       </div>
 
       <div className={style.sectionEvenements}>
-        <h1>Evénements</h1>
+        <h1>Événements à venir</h1>
         <div className={style.trait}></div>
         <div className={style.sectionCarte}>
           <Carte
@@ -52,16 +52,16 @@ export default function Accueil() {
           ></Carte>
           <Carte
             image={carte2}
-            titre={"Vente de déménagement"}
+            titre={"Vintage & Antiquités"}
             description={
-              "Tout doit partir ! Électroménagers, meubles, articles de sport, outils et matériel de jardinage. Des prix imbattables !"
+              "Vente de garage dédiée aux amateurs de vintage. Collection de disques vinyles, objets rétro, meubles anciens et accessoires uniques."
             }
           ></Carte>
           <Carte
             image={carte3}
-            titre={"Vente de déménagement"}
+            titre={"Vente de garage familiale"}
             description={
-              "Tout doit partir ! Électroménagers, meubles, articles de sport, outils et matériel de jardinage. Des prix imbattables !"
+              "Une grande vente organisée par une famille locale. Articles en vedette : vêtements pour enfants, électroménagers usagés, meubles en bon état, jouets, livres et décorations de maison."
             }
           ></Carte>
         </div>

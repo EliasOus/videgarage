@@ -5,6 +5,7 @@ import Image from "next/image";
 import logo from "@/public/Logo-white.png";
 
 import Boutton from "@/components/Boutton";
+import Link from "next/link";
 
 export default function Header() {
   return (
@@ -15,16 +16,16 @@ export default function Header() {
       <nav>
         <ul className={styles.liste}>
           <li>
-            <a href="#">Accueil</a>
+            <Link href="/">Accueil</Link>
           </li>
           <li>
-            <a href="#">À propos</a>
+            <Link href="#">À propos</Link>
           </li>
           <li>
-            <a href="#">Evenements</a>
+            <Link href="/evenements">Evenements</Link>
           </li>
           <li>
-            <a href="#">FAQ</a>
+            <Link href="#">FAQ</Link>
           </li>
         </ul>
       </nav>
