@@ -1,0 +1,131 @@
+.evenement1 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    /* background-color: green; */
+}
+
+/*Css caroussel*/
+.caroussel {
+    /* background-color: yellow; */
+    height: 100%;
+    width: 65%;
+    overflow: hidden ;
+    position: relative;
+}
+.item {
+    position: absolute;
+    top : 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.cssImage{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}  
+/* Je cherche a afficher la premiere image en premier */
+.item:nth-child(1){
+    z-index: 1;
+}
+
+/*css des vignettes*/
+.vignettes
+{
+    position: absolute;
+    bottom: 60px;
+    left: 30%;
+    width: max-content;
+    z-index: 20;
+    display: flex;
+    gap: 20px;
+}
+.itemVignettes {
+    width: 150px;
+    height: 220px;
+    flex-shrink: 0;
+    position: relative;
+    border-radius: 20px;
+}
+/*css pour les deux fleches avant et apres*/
+.fleches {
+position: absolute;
+width: 100px;
+top : 80%;
+left: 20%;
+max-width: 30%;
+display: flex;
+gap:10px;
+align-items: center;
+}
+
+/* effet boutton apres */
+.caroussel.apres .item:nth-child(1).cssImage  {
+    width :150px;
+    height: 220px;
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+    border-radius: 20px;
+    animation: showImage 0.5s linear 1 forwards;
+}
+
+@keyframes showImage {
+    to {
+        width: 100%;
+        height: 100%;
+        left: 0;
+        bottom: 0;
+        border-radius: 0;
+    }
+}
+
+.caroussel.apres .itemVignettes:nth-last-child(1){
+    width: 0;
+    overflow: hidden;
+    animation:  showVignette 0.5s linear 1 forwards;
+}
+@keyframes showVignette {
+    to{
+        width: 150px;
+    }
+}
+
+.caroussel.apres .vignettes {
+    transform: translateX(150px);
+    animation: transformVignettes 0.5s linear 1 forwards;
+}
+@keyframes transformVignettes {
+    to{
+        transform: translateX(0);
+    }
+}
+
+/* effet boutton avant */
+
+.avant .item:nth-child(2){
+    z-index: 2;
+}
+
+.avant .item:nth-child(2) img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation: outImage 0.5s linear 1 forwards;
+}
+@keyframes outImage {
+    to{
+        width: 150px;
+        height: 220px;
+        bottom: 50px;
+        left: 50%;
+        border-radius: 20px;
+    }
+}
+.avant .itemVignettes:nth-child(1){
+    width: 0;
+    overflow: hidden;
+    opacity: 0;
+    animation: showVignette 0.5s linear 1 forwards;
+}
