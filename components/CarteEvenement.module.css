@@ -1,0 +1,77 @@
+.detailEvenement {
+    background-color: white;
+    height: 100%;
+    width: 35%;
+    color: black;
+    text-shadow: 0 5px 10px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.theme {
+    width: 100%;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+
+.contact {
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+
+.adresse {
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 5px;
+    padding: 10px 20px;
+}
+
+.dateEvenement {
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 5px;
+    padding: 10px 20px;
+}
+
+@keyframes apparitionContenu {
+    to {
+        opacity: 1;
+        filter: blur(0);
+        transform: translateY(0);
+    }
+}
+
+/* Je cherche a animer la partie description de l'evenement */
+.theme,
+.contact,
+.adresse,
+.dateEvenement {
+    transform: translateY(50px);
+    filter: blur(20px);
+    opacity: 0;
+    animation: apparitionContenu 0.5s 1s linear forwards;
+}
+
+/* jouer sur le delai d'apparition des contenus */
+.theme {
+    animation-delay: 1.2s;
+}
+
+.contact {
+    animation-delay: 1.4s;
+}
+
+.adresse {
+    animation-delay: 1.6s;
+}
+
+.dateEvenement {
+    animation-delay: 1.8s;
+}
