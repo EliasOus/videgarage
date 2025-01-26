@@ -1,5 +1,4 @@
-"use client"
-import { useState, useEffect } from "react";
+
 
 import Image from "next/image";
 import casseroles from "@/public/casseroles.jpeg"
@@ -14,33 +13,15 @@ import CarteEvenement from "@/components/CarteEvenement";
 
 
 export default function Evenement1() {
-    // Boutton Next et Previous 
+
     const images = [casseroles, parasole, ustansiles, tableaManger];
     const titre = ["Casseroles", "Parasole", "Ustansiles", "Table a manger"]
-    const [currentIndex, setCurrentIndex] = useState(0);
-    const [animation, setAnimation] = useState("");
-
-    const nextSlide = () => {
-        setAnimation(styles.apres);
-        setTimeout(() => {
-            setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-            setAnimation("");
-        }, 500);
-    };
-
-    const prevSlide = () => {
-        setAnimation(styles.avant);
-        setTimeout(() => {
-            setCurrentIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
-            setAnimation("");
-        }, 500);
-    };
 
     return (
         <>
             <section className={styles.evenement1}>
 
-                <div className={`${styles.caroussel} ${animation}`}>
+                <div className={styles.caroussel}>
                     <div className={styles.list}>
                         {images.map((img, index) => (
                             <div key={index} className={styles.item}>
@@ -58,11 +39,9 @@ export default function Evenement1() {
                     <div className={styles.fleches}>
                         <BouttonFlech
                             idBoutton="avant"
-                            signe="<"
-                            onClick={()=>prevSlide()} />
+                            signe="<"/>
                         <BouttonFlech
-                            idBoutton="apres" signe=">"
-                            onClick={nextSlide} />
+                            idBoutton="apres" signe=">"/>
                     </div>
 
                 </div>
