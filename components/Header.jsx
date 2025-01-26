@@ -3,6 +3,7 @@ import stylesBtn from "./Boutton.module.css";
 
 import Image from "next/image";
 import logo from "@/public/Logo-white.png";
+import logoBlack from "@/public/Logo-black.png";
 
 import Boutton from "@/components/Boutton";
 import Link from "next/link";

@@ -1,1 +1,28 @@
 /* page evenements */
+
+.banner {
+  position: relative;
+  z-index: -10;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.banner h1 {
+  position: absolute;
+  color: white;
+  font-size: 4rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.cartes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 150px 0;
+}

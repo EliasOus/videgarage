@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import logo from "@/public/Logo-black-2.png";
+import logo from "@/public/Logo-black.png";
 import facebook from "@/public/facebook.svg";
 import instagram from "@/public/instagram.svg";
 import twitter from "@/public/twitter.svg";
