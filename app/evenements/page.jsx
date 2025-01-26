@@ -1,8 +1,6 @@
 // page evenement
 import style from "./page.module.css";
 
-import banner from "@/public/evenements-banner.png";
-
 import carte1 from "@/public/carte1.png";
 import carte2 from "@/public/carte2.png";
 import carte3 from "@/public/carte3.png";
@@ -14,14 +12,12 @@ import carte8 from "@/public/carte8.png";
 
 import Image from "next/image";
 import Carte from "@/components/Carte";
+import BannerImage from "@/components/BannerImage";
 
 export default function Evenements() {
   return (
     <>
-      <div className={style.banner}>
-        <Image src={banner} alt="banner pour la page des évènements" />
-        <h1>Evènements</h1>
-      </div>
+      <BannerImage titre={"Evenements"}/>
       <div className={style.cartes}>
         <Carte
           image={carte1}
