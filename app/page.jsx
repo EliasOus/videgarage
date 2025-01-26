@@ -24,10 +24,10 @@ export default function Accueil() {
           <h1>
             Donnez une seconde vie à vos objets, une vente de garage à la fois!
           </h1>
-          <h4>
+          <p>
             Trouvez des trésors cachés près de chez vous ou organisez votre
             propre événement facilement.
-          </h4>
+          </p>
           <Boutton
             texte={"Voir les Èvénements "}
             className={styleBouton.Boutton}

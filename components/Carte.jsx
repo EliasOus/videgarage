@@ -1,11 +1,10 @@
 import style from "./Carte.module.css";
-import styleBouton from "./Boutton.module.css";
 
 import formImage from "@/public/forme-carte.png";
 
 import Image from "next/image";
-import Boutton from "@/components/Boutton";
 import Link from "next/link";
+
 
 export default function Carte({ image, titre, description }) {
   return (
@@ -18,9 +17,7 @@ export default function Carte({ image, titre, description }) {
       </div>
       <h1>{titre}</h1>
       <p>{description}</p>
-      <Link href="/">
-        Voir l'èvénenemnt
-      </Link>
+      <Link href="/">Voir l'èvénenemnt</Link>
     </div>
   );
 }

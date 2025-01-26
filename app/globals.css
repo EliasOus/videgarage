@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  font-family: var(--font-lora);
 }
 
 *,
@@ -9,6 +10,12 @@ html {
   margin: 0;
 }
 
-a{
+a {
   text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-roboto);
 }
