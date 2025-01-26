@@ -1,25 +1,31 @@
 
 
-import Image from "next/image";
 import casseroles from "@/public/casseroles.jpeg"
 import parasole from "@/public/parasole.jpeg"
 import ustansiles from "@/public/ustansiles.jpeg"
 import tableaManger from "@/public/tableaManger.jpg"
 
 import styles from "./page.module.css"
-import Vignette from "@/components/Vignette";
-import BouttonFlech from "@/components/BouttonFlech";
-import CarteEvenement from "@/components/CarteEvenement";
-
+import Evenement from "@/components/Evenement";
 
 export default function Evenement1() {
 
-    const images = [casseroles, parasole, ustansiles, tableaManger];
-    const titre = ["Casseroles", "Parasole", "Ustansiles", "Table a manger"]
-
     return (
         <>
-            <section className={styles.evenement1}>
+        <Evenement 
+        image1 = {casseroles}
+        image2 = {parasole}
+        image3 = {ustansiles}
+        image4 = {tableaManger}
+        titreImage1 = {"Ensemble de casseroles"}
+        titreImage2 = {"Une parasole"}
+        titreImage3 = {"Ensemble d'ustanciles"}
+        titreImage4 = {"Table a manger"}
+        themeEvenement = {"Demenagement"}
+        contactEvenement = {"Contact : Mr Eliyas."}
+        adresseEvenement = {"Adresse : 23, Caroussel Crescent, Gloucester, Ottawa"}
+        datEvenement = {"Date : 8-Fevrier-2025"} />
+            {/* <section className={styles.evenement1}>
 
                 <div className={styles.caroussel}>
                     <div className={styles.list}>
@@ -50,7 +56,7 @@ export default function Evenement1() {
                 contact={"Contact : Mr Eliyas."}
                 adresse={"Adresse : 23, Caroussel Crescent, Gloucester, Ottawa"}
                 dateEvenement={"Date : 8-Fevrier-2025"}/>
-            </section>
+            </section> */}
         </>
     )
 }
