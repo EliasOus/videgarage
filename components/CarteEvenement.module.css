@@ -32,7 +32,11 @@
     letter-spacing: 5px;
     padding: 10px 20px;
 }
-
+.description {
+    font-size: 20px;
+    letter-spacing: 5px;
+    padding: 10px 20px;
+}
 .dateEvenement {
     font-weight: bold;
     font-size: 20px;
@@ -51,6 +55,7 @@
 /* Je cherche a animer la partie description de l'evenement */
 .theme,
 .contact,
+.description,
 .adresse,
 .dateEvenement {
     transform: translateY(50px);
@@ -71,7 +76,9 @@
 .adresse {
     animation-delay: 1.6s;
 }
-
-.dateEvenement {
+.description {
     animation-delay: 1.8s;
+}
+.dateEvenement {
+    animation-delay: 2s;
 }

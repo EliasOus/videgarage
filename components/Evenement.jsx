@@ -6,7 +6,7 @@ import BouttonFlech from "./BouttonFlech";
 import CarteEvenement from "./CarteEvenement";
 
 
-export default function Evenement({ image1, image2, image3, image4, titreImage1, titreImage2, titreImage3, titreImage4, themeEvenement, contactEvenement, adresseEvenement, datEvenement}) {
+export default function Evenement({ image1, image2, image3, image4, titreImage1, titreImage2, titreImage3, titreImage4, themeEvenement, contactEvenement, adresseEvenement,descriptionEvenement, datEvenement}) {
     const images = [image1, image2, image3, image4];
     const titre = [titreImage1, titreImage2, titreImage3, titreImage4]
     return (
@@ -41,6 +41,7 @@ export default function Evenement({ image1, image2, image3, image4, titreImage1,
                     theme={themeEvenement}
                     contact={contactEvenement}
                     adresse={adresseEvenement}
+                    description = {descriptionEvenement}
                     dateEvenement={datEvenement} />
             </section>
         </>

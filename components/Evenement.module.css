@@ -1,6 +1,6 @@
 .evenement {
-    width: 90%;
-    height: 100vh;
+    width: 80%;
+    height: 80vh;
     margin:0 auto;
     display: flex;
     /* background-color: green; */
@@ -12,6 +12,7 @@
     width: 65%;
     overflow: hidden ;
     position: relative;
+    border-radius: 30px;
 }
 .item {
     position: absolute;
@@ -35,7 +36,7 @@
 {
     position: absolute;
     bottom: 60px;
-    left: 30%;
+    left: 15%;
     width: max-content;
     z-index: 20;
     display: flex;
@@ -53,7 +54,7 @@
     position: absolute;
     width: 100px;
     top : 80%;
-    left: 20%;
+    left: 2%;
     max-width: 30%;
     display: flex;
     gap:10px;
