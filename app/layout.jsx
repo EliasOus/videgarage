@@ -18,7 +18,7 @@ const roboto = Roboto({
   weight: ["400", "900"],
   style: ["italic", "normal"],
   display: "swap",
-  variable: "--font-reoboto",
+  variable: "--font-roboto",
 });
 const lora = Lora({
   subsets: ["latin"],
