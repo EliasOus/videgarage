@@ -6,9 +6,8 @@ import BouttonFlech from "./BouttonFlech";
 import CarteEvenement from "./CarteEvenement";
 
 
-export default function Evenement({ image1, image2, image3, image4, titreImage1, titreImage2, titreImage3, titreImage4, themeEvenement, contactEvenement, adresseEvenement,descriptionEvenement, datEvenement}) {
-    const images = [image1, image2, image3, image4];
-    const titre = [titreImage1, titreImage2, titreImage3, titreImage4]
+export default function Evenement({ image0 , image1, image2, image3, themeEvenement, contactEvenement, adresseEvenement,descriptionEvenement, datEvenement}) {
+    const images = [image0, image1, image2, image3];
     return (
         <>
             <section className={styles.evenement}>
@@ -16,7 +15,7 @@ export default function Evenement({ image1, image2, image3, image4, titreImage1,
                 <div className={styles.caroussel}>
                     <div className={styles.list}>
                         {images.map((img, index) => (
-                            <div key={index} className={styles.item}>
+                            <div key={index + 1} className={styles.item}>
                                 <Image src={img} alt={`Image ${index + 1}`} className={styles.cssImage} />
                             </div>
                         ))}
@@ -24,7 +23,7 @@ export default function Evenement({ image1, image2, image3, image4, titreImage1,
                     <div className={styles.vignettes}>
                         {images.map((img, index) => (
                             <div key={index} className={styles.itemVignettes}>
-                                <Vignette source={img} altDescription={`Vignette ${index + 1}`} titre={`${titre[index]}`} />
+                                <Vignette source={img} altDescription={`Vignette ${index + 1}`} />
                             </div>
                         ))}
                     </div>

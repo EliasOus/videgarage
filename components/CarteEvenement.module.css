@@ -20,7 +20,7 @@
 
 .contact {
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
     letter-spacing: 5px;
     text-transform: uppercase;
     padding: 10px 20px;
@@ -42,6 +42,7 @@
     font-size: 20px;
     letter-spacing: 5px;
     padding: 10px 20px;
+    font-family: var(--font-roboto);
 }
 
 @keyframes apparitionContenu {
@@ -67,6 +68,7 @@
 /* jouer sur le delai d'apparition des contenus */
 .theme {
     animation-delay: 1.2s;
+    font-family: var(--font-reoboto);
 }
 
 .contact {

@@ -36,7 +36,7 @@
 {
     position: absolute;
     bottom: 60px;
-    left: 15%;
+    left: 25%;
     width: max-content;
     z-index: 20;
     display: flex;
@@ -53,8 +53,8 @@
 .fleches {
     position: absolute;
     width: 100px;
-    top : 80%;
-    left: 2%;
+    top : 70%;
+    left: 10%;
     max-width: 30%;
     display: flex;
     gap:10px;
