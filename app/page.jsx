@@ -10,6 +10,7 @@ import styleBouton from "@/components/Boutton.module.css";
 
 import Boutton from "@/components/Boutton";
 import Carte from "@/components/Carte";
+import Link from "next/link";
 
 export default function Accueil() {
   return (
@@ -28,11 +29,13 @@ export default function Accueil() {
             Trouvez des trésors cachés près de chez vous ou organisez votre
             propre événement facilement.
           </p>
-          <Boutton
-            texte={"Voir les Èvénements "}
-            className={styleBouton.Boutton}
-            active={true}
-          />
+          <Link href="/evenements">
+            <Boutton
+              texte={"Voir les Èvénements "}
+              className={styleBouton.Boutton}
+              active={true}
+            />
+          </Link>
         </div>
         <div className={style.arcBanner}>
           <Image src={arcBanner} alt="arc pour le banner" />
@@ -49,6 +52,7 @@ export default function Accueil() {
             description={
               "Tout doit partir ! Électroménagers, meubles, articles de sport, outils et matériel de jardinage. Des prix imbattables !"
             }
+            link={"/evenements/evenement1"}
           ></Carte>
           <Carte
             image={carte2}
@@ -56,6 +60,7 @@ export default function Accueil() {
             description={
               "Vente de garage dédiée aux amateurs de vintage. Collection de disques vinyles, objets rétro, meubles anciens et accessoires uniques."
             }
+            link={"/evenements/evenement2"}
           ></Carte>
           <Carte
             image={carte3}
@@ -63,6 +68,7 @@ export default function Accueil() {
             description={
               "Une grande vente organisée par une famille locale. Articles en vedette : vêtements pour enfants, électroménagers usagés, meubles en bon état, jouets, livres et décorations de maison."
             }
+            link={"/"}
           ></Carte>
         </div>
       </div>
