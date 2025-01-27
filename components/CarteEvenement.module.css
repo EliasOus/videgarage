@@ -12,7 +12,7 @@
 .theme {
     width: 100%;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 27px;
     letter-spacing: 5px;
     text-transform: uppercase;
     padding: 10px 20px;
@@ -24,6 +24,7 @@
     letter-spacing: 5px;
     text-transform: uppercase;
     padding: 10px 20px;
+    text-decoration: underline;
 }
 
 .adresse {
@@ -36,6 +37,9 @@
     font-size: 20px;
     letter-spacing: 5px;
     padding: 10px 20px;
+    text-indent: 25px;
+    text-align: justify;
+    text-shadow: none;
 }
 .dateEvenement {
     font-weight: bold;
@@ -43,6 +47,16 @@
     letter-spacing: 5px;
     padding: 10px 20px;
     font-family: var(--font-roboto);
+}
+.plusPhotos {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 20px;
+    text-shadow: none;
+}
+.plusPhotos a {
+    color: #ffb623;
+    text-decoration: underline;
 }
 
 @keyframes apparitionContenu {
@@ -58,7 +72,8 @@
 .contact,
 .description,
 .adresse,
-.dateEvenement {
+.dateEvenement,
+.plusPhotos {
     transform: translateY(50px);
     filter: blur(20px);
     opacity: 0;
@@ -83,4 +98,7 @@
 }
 .dateEvenement {
     animation-delay: 2s;
+}
+.plusPhotos {
+    animation-delay: 2.2s;
 }
