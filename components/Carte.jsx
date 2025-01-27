@@ -6,7 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 
-export default function Carte({ image, titre, description }) {
+export default function Carte({ image, titre, description, link }) {
   return (
     <div className={style.carte}>
       <div className={style.containerImage}>
@@ -17,7 +17,7 @@ export default function Carte({ image, titre, description }) {
       </div>
       <h1>{titre}</h1>
       <p>{description}</p>
-      <Link href="/">Voir l'èvénenemnt</Link>
+      <Link href={link}>Voir l'èvénenemnt</Link>
     </div>
   );
 }
