@@ -19,7 +19,7 @@ export default function Evenement1() {
                     image1={casseroles}
                     image2={parasole}
                     image3={tableaManger}
-                    themeEvenement={"Demenagement"}
+                    themeEvenement={"Vente de déménagement"}
                     contactEvenement={"Contact : Mr Eliyas."}
                     descriptionEvenement={"Tout doit partir ! Électroménagers, meubles, articles de sport, outils et matériel de jardinage. Des prix imbattables !"}
                     adresseEvenement={"Adresse : 23, Caroussel Crescent, Gloucester, Ottawa"}
