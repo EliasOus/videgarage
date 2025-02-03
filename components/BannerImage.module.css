@@ -1,17 +1,18 @@
 .banner {
-    position: relative;
-    z-index: -10;
-  }
-  
-  .banner img {
-    width: 100%;
-  }
-  
-  .banner h1 {
-    position: absolute;
-    color: white;
-    font-size: 4rem;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+  position: relative;
+  z-index: -10;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.banner h1 {
+  position: absolute;
+  color: white;
+  font-size: clamp(32px, 5vw, 64px);
+  width: 35%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

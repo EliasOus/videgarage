@@ -1,6 +1,6 @@
 .footer {
   display: flex;
-  align-content: center;
+  align-items: center;
   justify-content: center;
   background-color: #ffb623;
   padding: 40px 100px;
@@ -48,4 +48,14 @@
 
 .wave {
   transform: translateY(5px);
+}
+
+@media screen and (max-width: 800px) {
+  .footer {
+    flex-direction: column;
+  }
+  .footer div {
+    width: auto;
+  }
+
 }
