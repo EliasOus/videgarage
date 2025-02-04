@@ -1,4 +1,4 @@
-import styles from "./page.module.css";
+
 import Evenement from "@/components/Evenement";
 import BannerImage from "@/components/BannerImage";
 
@@ -12,7 +12,7 @@ export default function Evenement2() {
   return (
     <>
       <BannerImage titre={"Vintage & Antiquités"} />
-      <div className={styles.sectionEvenement}>
+      <div>
         <Evenement
           image0={carte2}
           image1={meubles}
