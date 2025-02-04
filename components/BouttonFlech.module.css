@@ -1,5 +1,5 @@
 .bouttonFlech {
-    width :40px;
+    width: 40px;
     height: 40px;
     border-radius: 50%;
     background-color: #eee4;
@@ -10,12 +10,14 @@
     transition: 0.5s;
     z-index: 49;
 }
+
 .bouttonFlech:hover {
     background-color: #eee;
     color: #555;
 }
-.bouton{
-    width :40px;
+
+.bouton {
+    width: 40px;
     height: 40px;
     border-radius: 50%;
     background-color: #eee4;

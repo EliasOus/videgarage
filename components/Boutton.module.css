@@ -1,20 +1,20 @@
 .boutton {
-  background-color: transparent;
-  width: auto;
-  height: 40px;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 18px;
-  font-weight: 600;
+    background-color: transparent;
+    width: auto;
+    height: 40px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .boutton:hover {
-  background-color: #ffb623;
+    background-color: #ffb623;
 }
 
 .active {
-  background-color: #ffb623;
-  color: black;
+    background-color: #ffb623;
+    color: black;
 }

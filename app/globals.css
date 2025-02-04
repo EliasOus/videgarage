@@ -1,21 +1,21 @@
 html {
-  box-sizing: border-box;
-  font-family: var(--font-lora);
+    box-sizing: border-box;
+    font-family: var(--font-lora);
 }
 
 *,
 *::after,
 *::before {
-  box-sizing: inherit;
-  margin: 0;
+    box-sizing: inherit;
+    margin: 0;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 h1,
 h2,
 h3 {
-  font-family: var(--font-roboto);
+    font-family: var(--font-roboto);
 }

@@ -1,105 +1,109 @@
 .header {
-  position: absolute;
-  z-index: 1;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  height: 70px;
-  padding: 5px 50px;
-  backdrop-filter: blur(10px);
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    padding: 5px 50px;
+    backdrop-filter: blur(10px);
 }
 
 .Image {
-  height: 100%;
-  width: 100%;
-  padding: 5px 0px;
+    height: 100%;
+    width: 100%;
+    padding: 5px 0px;
 }
+
 .logo {
-  height: 100%;
+    height: 100%;
 }
+
 .nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  min-width: 60vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 60vw;
 }
 
 .liste {
-  display: flex;
-  justify-content: center;
-  gap: 1.6rem;
-  font-size: 19px;
-  font-weight: bold;
-  list-style-type: none;
-  align-items: center;
-  padding: 0px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 1.6rem;
+    font-size: 19px;
+    font-weight: bold;
+    list-style-type: none;
+    align-items: center;
+    padding: 0px 20px;
 }
 
 .liste a {
-  color: white;
+    color: white;
 }
 
 .bouttons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 
 .liste a:active {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 .btnMenu {
-  display: none;
+    display: none;
 }
 
 @media screen and (max-width: 800px) {
-  .header {
-    display: flex;
-    justify-content: center;
-    z-index: 100;
-  }
+    .header {
+        display: flex;
+        justify-content: center;
+        z-index: 100;
+    }
 
-  .Image {
-    height: 100%;
-  }
+    .Image {
+        height: 100%;
+    }
 
-  .nav {
-    display: none;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 10rem;
-    width: 20%;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.7);
-    position: absolute;
-    top: 0px;
-    right: 0;
-    padding: 100px 0px;
-    z-index: -1;
-  }
+    .nav {
+        display: none;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 10rem;
+        width: 20%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.7);
+        position: absolute;
+        top: 0px;
+        right: 0;
+        padding: 100px 0px;
+        z-index: -1;
+    }
 
-  .liste {
-    flex-direction: column;
-  }
+    .liste {
+        flex-direction: column;
+    }
 
-  .liste li:hover {
-    background: rgba(255, 255, 255, 0.4);
-    display: block;
-    width: 300%;
-    text-align: center;
-  }
-  .btnMenu {
-    display: inline;
-    position: absolute;
-    right: 0;
-    top: 35%;
-    margin-right: 30px;
-    cursor: pointer;
-  }
-  .navActive {
-    display: flex;
-  }
+    .liste li:hover {
+        background: rgba(255, 255, 255, 0.4);
+        display: block;
+        width: 300%;
+        text-align: center;
+    }
+
+    .btnMenu {
+        display: inline;
+        position: absolute;
+        right: 0;
+        top: 35%;
+        margin-right: 30px;
+        cursor: pointer;
+    }
+
+    .navActive {
+        display: flex;
+    }
 }

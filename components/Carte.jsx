@@ -5,7 +5,6 @@ import formImage from "@/public/forme-carte.png";
 import Image from "next/image";
 import Link from "next/link";
 
-
 export default function Carte({ image, titre, description, link }) {
   return (
     <div className={style.carte}>

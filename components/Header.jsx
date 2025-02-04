@@ -16,7 +16,7 @@ export default function Header() {
   const [estVisible, setVisible] = useState(false);
 
   const navBarActive = () => {
-    setVisible(!estVisible)
+    setVisible(!estVisible);
   };
 
   return (

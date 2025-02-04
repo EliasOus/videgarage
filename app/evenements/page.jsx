@@ -10,7 +10,6 @@ import carte6 from "@/public/carte6.png";
 import carte7 from "@/public/carte7.png";
 import carte8 from "@/public/carte8.png";
 
-import Image from "next/image";
 import Carte from "@/components/Carte";
 import BannerImage from "@/components/BannerImage";
 

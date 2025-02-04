@@ -2,8 +2,8 @@
     padding: 150px 0;
 }
 
-@media screen and (max-width:700px){
-    .sectionEvenement{
+@media screen and (max-width:700px) {
+    .sectionEvenement {
         padding: 0;
     }
-  }
+}
