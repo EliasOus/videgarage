@@ -1,3 +1,4 @@
+// Importation des images
 import Image from "next/image";
 import banner from "@/public/banner.png";
 import arcBanner from "@/public/arc-banner.png";
@@ -5,13 +6,16 @@ import carte1 from "@/public/carte1.png";
 import carte2 from "@/public/carte2.png";
 import carte3 from "@/public/carte3.png";
 
+// Import des styles CSS
 import style from "./page.module.css";
 import styleBouton from "@/components/Boutton.module.css";
 
+// Importation des composants
 import Boutton from "@/components/Boutton";
 import Carte from "@/components/Carte";
 import Link from "next/link";
 
+// Ce composant définit la structure de la page d'accueil
 export default function Accueil() {
   return (
     <>

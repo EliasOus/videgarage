@@ -7,6 +7,7 @@ import books from "@/public/books.jpg";
 import meubles from "@/public/meubles.jpg";
 import appareillePhoto from "@/public/appareillePhoto.jpg";
 
+// page pour deuxième evenement
 export default function Evenement2() {
   return (
     <>

@@ -1,14 +1,13 @@
 import Image from "next/image";
-
 import logo from "@/public/Logo-black.png";
 import facebook from "@/public/facebook.svg";
 import instagram from "@/public/instagram.svg";
 import twitter from "@/public/twitter.svg";
 import whatsapp from "@/public/whatsapp.svg";
 import wave from "@/public/wave.png";
-
 import style from "./Footer.module.css";
 
+// Composant pour affiche le footer de tout les pages 
 export default function Footer() {
   return (
     <footer>

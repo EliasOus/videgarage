@@ -1,17 +1,14 @@
 "use client";
 
 import styles from "./Header.module.css";
-import stylesBtn from "./Boutton.module.css";
-
 import Image from "next/image";
 import logo from "@/public/Logo-white.png";
 import btnMenu from "@/public/menuButton.png";
-
 import Boutton from "@/components/Boutton";
 import Link from "next/link";
-
 import { useState } from "react";
 
+// Composant pour affiche le Header de tout les pages
 export default function Header() {
   const [estVisible, setVisible] = useState(false);
 

@@ -1,10 +1,10 @@
 import styles from "./Evenement.module.css";
-
 import Image from "next/image";
 import Vignette from "./Vignette";
 import BouttonFlech from "./BouttonFlech";
 import CarteEvenement from "./CarteEvenement";
 
+// Composant pour affiche les détails d'un événement avec une galerie d'images et des informations complémentaires.
 export default function Evenement({
   image0,
   image1,

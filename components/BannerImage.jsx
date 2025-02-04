@@ -1,9 +1,8 @@
 import Image from "next/image";
-
 import banner from "@/public/evenements-banner.png";
-
 import style from "./BannerImage.module.css";
 
+// Composant fonctionnel BannerImage qui affiche une bannière avec un titre
 export default function BannerImage({ titre }) {
   return (
     <div className={style.banner}>

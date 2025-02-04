@@ -7,6 +7,7 @@ import styles from "./page.module.css";
 import Evenement from "@/components/Evenement";
 import BannerImage from "@/components/BannerImage";
 
+// page pour premier evenement
 export default function Evenement1() {
   return (
     <>

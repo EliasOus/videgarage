@@ -1,5 +1,6 @@
 import styles from "./CarteEvenement.module.css";
 
+// Composant pour affiche les détails d'un événement, incluant le thème, le contact, l'adresse, la description, la date, et un lien vers des photos supplémentaires.
 export default function CarteEvenement({
   theme,
   contact,

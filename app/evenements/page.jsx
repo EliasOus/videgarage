@@ -13,6 +13,7 @@ import carte8 from "@/public/carte8.png";
 import Carte from "@/components/Carte";
 import BannerImage from "@/components/BannerImage";
 
+// page pour afficher tout les evenements
 export default function Evenements() {
   return (
     <>

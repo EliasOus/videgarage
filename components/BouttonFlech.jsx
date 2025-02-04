@@ -1,5 +1,6 @@
 import styles from "./BouttonFlech.module.css";
 
+// Composant fonctionnel Boutton
 export default function BouttonFlech({ idBoutton, signe }) {
   return (
     <div className={styles.bouttonFlech}>

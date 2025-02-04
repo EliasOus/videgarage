@@ -13,6 +13,7 @@ export const metadata = {
     "site web pour organiser, découvrir et partager des ventes de garage.",
 };
 
+// ajouter la font roboto pour l'utilisé dans les titres
 const roboto = Roboto({
   subsets: ["latin"],
   weight: ["400", "900"],
@@ -20,6 +21,7 @@ const roboto = Roboto({
   display: "swap",
   variable: "--font-roboto",
 });
+// ajouter la font lora pour l'utilisé dans les paragraphes
 const lora = Lora({
   subsets: ["latin"],
   weight: ["700"],
@@ -28,6 +30,7 @@ const lora = Lora({
   variable: "--font-lora",
 });
 
+// Ce composant définit la structure principale de la page
 export default function RootLayout({ children }) {
   return (
     <html lang="fr">

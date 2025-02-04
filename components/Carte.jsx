@@ -1,10 +1,9 @@
 import style from "./Carte.module.css";
-
 import formImage from "@/public/forme-carte.png";
-
 import Image from "next/image";
 import Link from "next/link";
 
+// Composant pour affiche une carte événement avec une image, un titre, une description, et un lien.
 export default function Carte({ image, titre, description, link }) {
   return (
     <div className={style.carte}>
