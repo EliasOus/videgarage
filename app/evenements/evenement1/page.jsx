@@ -3,7 +3,6 @@ import casseroles from "@/public/casseroles.jpeg";
 import parasole from "@/public/parasole.jpeg";
 import tableaManger from "@/public/tableaManger.jpg";
 
-import styles from "./page.module.css";
 import Evenement from "@/components/Evenement";
 import BannerImage from "@/components/BannerImage";
 
@@ -11,7 +10,7 @@ export default function Evenement1() {
   return (
     <>
       <BannerImage titre={"Vente de déménagement"} />
-      <div className={styles.sectionEvenement}>
+      <div>
         <Evenement
           image0={carte1}
           image1={casseroles}
