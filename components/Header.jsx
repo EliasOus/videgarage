@@ -40,6 +40,9 @@ export default function Header() {
             <Link href="/evenements">Evenements</Link>
           </li>
           <li>
+            <Link href="/contactez-nous">Contactez Nous</Link>
+          </li>
+          <li>
             <Link href="#">FAQ</Link>
           </li>
         </ul>
