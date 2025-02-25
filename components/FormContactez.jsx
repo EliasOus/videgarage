@@ -54,7 +54,7 @@ export default function ContactezNous() {
       erreur = true;
       newState.message.erreur = "Veuillez entrer un message ";
     }
-    if (message < 10 || message > 200) {
+    if (message.length < 10 || message.length > 200) {
       erreur = true;
       newState.message.erreur =
         "Veuillez entrer un message entre 10 a 200 caracter ";
