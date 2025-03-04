@@ -1,5 +1,7 @@
 "use server";
+import { envoiEmail } from "@/utils/envoiEmail";
 import { validationContactez } from "@/validation/contactezNous";
+import { redirect } from "next/navigation";
 
 export async function contactezServeur(formData) {
   //valide les données coté serveur
@@ -16,11 +18,7 @@ export async function contactezServeur(formData) {
     message: formData.get("message"),
   };
 
-  const response = await fetch("http://localhost:3000/api/contacteznous", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(data),
-  });
+  await envoiEmail(data.nom, data.email, data.objet, data.message);
 
-  return [erreur, newState];
+  redirect("/contactez-nous/succes");
 }

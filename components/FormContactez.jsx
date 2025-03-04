@@ -4,7 +4,6 @@ import style from "./FromContactez.module.css";
 import Button from "@/components/Boutton";
 import { validationContactez } from "@/validation/contactezNous";
 import { useActionState } from "react";
-import { useRouter } from "next/navigation";
 
 /**
  * Fonction de validation du formulaire de contact.
@@ -22,7 +21,6 @@ import { useRouter } from "next/navigation";
  * @returns {object} - Un objet représentant l'état mis à jour du formulaire avec les erreurs.
  */
 export default function ContactezNous() {
-  const router = useRouter();
   /**
    *
    * @param {formData} formData
@@ -40,8 +38,6 @@ export default function ContactezNous() {
       newState.courriel.valeur = formData.get("courriel");
       newState.objet.valeur = formData.get("objet");
       newState.message.valeur = formData.get("message");
-    } else {
-      router.push("/contactez-nous/succes");
     }
     return newState;
   };
