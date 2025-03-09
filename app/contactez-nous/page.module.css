@@ -1,0 +1,23 @@
+.contenaire {
+    overflow: hidden;
+    height: 130vh;
+    margin: -5rem 0rem;
+}
+
+.image {
+    position: relative;
+}
+
+.form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 800px) {
+    .form{
+        overflow: hidden;
+        width: 100%;
+    }
+}

@@ -30,6 +30,7 @@ export default function Accueil() {
           src={banner}
           alt="banner pour notre site web"
           className={style.bannerImg}
+          priority
         />
         <div className={style.hero}>
           <h1>

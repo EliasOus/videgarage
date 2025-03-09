@@ -2,10 +2,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("/img-contactez-nous.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     height: 100vh;
     margin-bottom: -75px;
 
@@ -85,4 +81,10 @@
     color: rgb(155 1 1);
     padding-top: .5rem;
     font-weight: 900;
+}
+
+@media screen and (max-width: 800px) {
+    .contactezNous {
+        margin: 0rem 2rem;
+    }
 }

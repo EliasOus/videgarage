@@ -4,15 +4,15 @@ import facebook from "@/public/facebook.svg";
 import instagram from "@/public/instagram.svg";
 import twitter from "@/public/twitter.svg";
 import whatsapp from "@/public/whatsapp.svg";
-import wave from "@/public/wave.png";
+import wave from "@/public/wave.webp";
 import style from "./Footer.module.css";
 
-// Composant pour affiche le footer de tout les pages 
+// Composant pour affiche le footer de tout les pages
 export default function Footer() {
   return (
     <footer>
       <div className={style.wave}>
-        <Image src={wave} alt="image" />
+        <Image src={wave} alt="image" priority />
       </div>
       <div className={style.footer}>
         <div className={style.info}>

@@ -2,7 +2,7 @@
 
 import styles from "./Header.module.css";
 import Image from "next/image";
-import logo from "@/public/Logo-white.png";
+import logo from "@/public/Logo-white.webp";
 import btnMenu from "@/public/menuButton.png";
 import Boutton from "@/components/Boutton";
 import Link from "next/link";
@@ -19,7 +19,7 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.logo}>
-        <Image src={logo} alt="Logo React" className={styles.Image} />
+        <Image src={logo} alt="Logo React" className={styles.Image} priority/>
       </div>
       <div onClick={navBarActive}>
         <Image

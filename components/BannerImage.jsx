@@ -6,7 +6,7 @@ import style from "./BannerImage.module.css";
 export default function BannerImage({ titre }) {
   return (
     <div className={style.banner}>
-      <Image src={banner} alt="banner pour la page des évènements" />
+      <Image src={banner} alt="banner pour la page des évènements" priority />
       <h1>{titre}</h1>
     </div>
   );
