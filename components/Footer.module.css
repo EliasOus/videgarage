@@ -33,6 +33,12 @@
     gap: 10px;
 }
 
+.liens h1,
+.reseaux h1 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
 .reseaux div {
     display: flex;
     justify-content: start;
@@ -49,6 +55,7 @@
 
 .wave img {
     width: 100%;
+    object-fit: cover;
 }
 
 .wave {
