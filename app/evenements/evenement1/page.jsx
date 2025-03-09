@@ -6,6 +6,12 @@ import tableaManger from "@/public/tableaManger.jpg";
 import Evenement from "@/components/Evenement";
 import BannerImage from "@/components/BannerImage";
 
+export const metadata = {
+  title: "Événement | VideGarage",
+  description:
+    "Consultez les détails de notre événement de vente au garage, y compris les articles disponibles, la date, l'heure et l'emplacement.",
+};
+
 // page pour premier evenement
 export default function Evenement1() {
   return (

@@ -13,6 +13,12 @@ import carte8 from "@/public/carte8.png";
 import Carte from "@/components/Carte";
 import BannerImage from "@/components/BannerImage";
 
+export const metadata = {
+  title: "Événements | VideGarage",
+  description:
+    "Découvrez tous les événements de vente au garage à venir et profitez des meilleures offres près de chez vous.",
+};
+
 // page pour afficher tout les evenements
 export default function Evenements() {
   return (

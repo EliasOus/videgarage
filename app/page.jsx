@@ -15,6 +15,12 @@ import Boutton from "@/components/Boutton";
 import Carte from "@/components/Carte";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Accueil | VideGarage",
+  description:
+    "Découvrez les meilleurs événements de vente au garage près de chez vous et trouvez des articles uniques à petit prix !",
+};
+
 // Ce composant définit la structure de la page d'accueil
 export default function Accueil() {
   return (
