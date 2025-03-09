@@ -53,7 +53,7 @@ export default function Accueil() {
       </div>
 
       <div className={style.sectionEvenements}>
-        <h1>Événements à venir</h1>
+        <h1 className={style.titre}>Événements à venir</h1>
         <div className={style.trait}></div>
         <div className={style.sectionCarte}>
           <Carte
@@ -76,7 +76,7 @@ export default function Accueil() {
             image={carte3}
             titre={"Vente de garage familiale"}
             description={
-              "Une grande vente organisée par une famille locale. Articles en vedette : vêtements pour enfants, électroménagers usagés, meubles en bon état, jouets, livres et décorations de maison."
+              "Une grande vente organisée par une famille locale. Articles en vedette : vêtements pour enfants, électroménagers usagés, meubles en bon état."
             }
             link={"/"}
           ></Carte>

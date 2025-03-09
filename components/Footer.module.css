@@ -19,6 +19,11 @@
     gap: 10px;
 }
 
+.info span {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
 .liens,
 .contact,
 .reseaux {

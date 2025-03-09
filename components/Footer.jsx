@@ -22,17 +22,17 @@ export default function Footer() {
             garage locales, favorisant la réutilisation et le lien
             communautaire.
           </p>
-          <h4>801 Aviation Pkwy, Ottawa, ON K1J 1H2</h4>
+          <span>801 Aviation Pkwy, Ottawa, ON K1J 1H2</span>
         </div>
         <div className={style.liens}>
-          <h3>Liens Pratiques :</h3>
+          <h1>Liens Pratiques :</h1>
           <a href="#">Accueil</a>
           <a href="#">À propos</a>
           <a href="">Evenements</a>
           <a href="#">FAQ</a>
         </div>
         <div className={style.reseaux}>
-          <h3>Réseaux sociaux :</h3>
+          <h1>Réseaux sociaux :</h1>
           <div>
             <a href="#">
               <Image src={facebook} alt="logo facebook" />
@@ -49,8 +49,8 @@ export default function Footer() {
           </div>
         </div>
         <div className={style.contact}>
-          <h3>Nous contacter :</h3>
-          <h3>contact@videgarage.com</h3>
+          <span>Nous contacter :</span>
+          <span>contact@videgarage.com</span>
         </div>
       </div>
     </footer>
