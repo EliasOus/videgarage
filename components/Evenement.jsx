@@ -21,16 +21,13 @@ export default function Evenement({
     <>
       <section className={styles.evenement}>
         <div className={styles.caroussel}>
-          <div className={styles.list}>
-            {images.map((img, index) => (
-              <div key={index + 1} className={styles.item}>
-                <Image
-                  src={img}
-                  alt={`Image ${index + 1}`}
-                  className={styles.cssImage}
-                />
-              </div>
-            ))}
+          <div className={styles.item}>
+            <Image
+              src={image0}
+              alt={`Image1`}
+              className={styles.cssImage}
+              priority
+            />
           </div>
           <div className={styles.vignettes}>
             {images.map((img, index) => (

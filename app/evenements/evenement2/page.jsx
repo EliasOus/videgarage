@@ -1,7 +1,7 @@
 import Evenement from "@/components/Evenement";
 import BannerImage from "@/components/BannerImage";
 
-import carte2 from "@/public/carte2.jpg";
+import carte2 from "@/public/carte2.webp";
 import books from "@/public/books.jpg";
 import meubles from "@/public/meubles.jpg";
 import appareillePhoto from "@/public/appareillePhoto.jpg";

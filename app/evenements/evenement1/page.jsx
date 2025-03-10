@@ -1,4 +1,4 @@
-import carte1 from "@/public/carte1.jpg";
+import carte1 from "@/public/carte1.webp";
 import casseroles from "@/public/casseroles.jpeg";
 import parasole from "@/public/parasole.jpeg";
 import tableaManger from "@/public/tableaManger.jpg";

@@ -15,9 +15,6 @@ export default function CarteEvenement({
       <div className={styles.description}>{description}</div>
       <div className={styles.adresse}>{adresse}</div>
       <div className={styles.dateEvenement}>{dateEvenement}</div>
-      <div className={styles.plusPhotos}>
-        <a href="#">Plus de photos &rarr;</a>
-      </div>
     </div>
   );
 }

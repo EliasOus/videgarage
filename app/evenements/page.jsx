@@ -1,8 +1,8 @@
 // page evenement
 import style from "./page.module.css";
 
-import carte1 from "@/public/carte1.png";
-import carte2 from "@/public/carte2.png";
+import carte1 from "@/public/carte1.webp";
+import carte2 from "@/public/carte2.webp";
 import carte3 from "@/public/carte3.png";
 import carte4 from "@/public/carte4.png";
 import carte5 from "@/public/carte5.png";

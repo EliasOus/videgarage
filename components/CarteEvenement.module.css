@@ -12,7 +12,7 @@
 .theme {
     width: 100%;
     font-weight: bold;
-    font-size: 27px;
+    font-size: 1.6rem;
     letter-spacing: 5px;
     text-transform: uppercase;
     padding: 10px 20px;
@@ -58,56 +58,54 @@
     text-shadow: none;
 }
 
-.plusPhotos a {
-    color: #ffb623;
-    text-decoration: underline;
-}
+@media screen and (min-width: 799px) {
 
-@keyframes apparitionContenu {
-    to {
-        opacity: 1;
-        filter: blur(0);
-        transform: translateY(0);
+    @keyframes apparitionContenu {
+        to {
+            opacity: 1;
+            filter: blur(0);
+            transform: translateY(0);
+        }
     }
-}
 
-/* Je cherche a animer la partie description de l'evenement */
-.theme,
-.contact,
-.description,
-.adresse,
-.dateEvenement,
-.plusPhotos {
-    transform: translateY(50px);
-    filter: blur(20px);
-    opacity: 0;
-    animation: apparitionContenu 0.5s 1s linear forwards;
-}
+    /* Je cherche a animer la partie description de l'evenement */
+    .theme,
+    .contact,
+    .description,
+    .adresse,
+    .dateEvenement,
+    .plusPhotos {
+        transform: translateY(50px);
+        filter: blur(20px);
+        opacity: 0;
+        animation: apparitionContenu 0.5s 1s linear forwards;
+    }
 
-/* jouer sur le delai d'apparition des contenus */
-.theme {
-    animation-delay: 1.2s;
-    font-family: var(--font-reoboto);
-}
+    /* jouer sur le delai d'apparition des contenus */
+    .theme {
+        animation-delay: 1.2s;
+        font-family: var(--font-reoboto);
+    }
 
-.contact {
-    animation-delay: 1.4s;
-}
+    .contact {
+        animation-delay: 1.4s;
+    }
 
-.adresse {
-    animation-delay: 1.6s;
-}
+    .adresse {
+        animation-delay: 1.6s;
+    }
 
-.description {
-    animation-delay: 1.8s;
-}
+    .description {
+        animation-delay: 1.8s;
+    }
 
-.dateEvenement {
-    animation-delay: 2s;
-}
+    .dateEvenement {
+        animation-delay: 2s;
+    }
 
-.plusPhotos {
-    animation-delay: 2.2s;
+    .plusPhotos {
+        animation-delay: 2.2s;
+    }
 }
 
 @media screen and (max-width:800px) {
