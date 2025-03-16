@@ -1,11 +1,13 @@
 .contenaire {
     overflow: hidden;
     height: 130vh;
-    margin: -5rem 0rem;
+    margin-bottom: -15%;
 }
 
 .image {
     position: relative;
+    width: 100%;
+    z-index: -2;
 }
 
 .form {
@@ -16,7 +18,7 @@
 }
 
 @media screen and (max-width: 800px) {
-    .form{
+    .form {
         overflow: hidden;
         width: 100%;
     }

@@ -13,7 +13,7 @@ export default function Footer() {
   return (
     <footer>
       <div className={style.wave}>
-        <Image src={wave800} alt="image" priority />
+        <Image src={wave800} alt="image" />
       </div>
       <div className={style.footer}>
         <div className={style.info}>

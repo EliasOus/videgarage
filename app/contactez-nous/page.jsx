@@ -1,6 +1,6 @@
 import FormContactez from "@/components/FormContactez";
 import Image from "next/image";
-import img from "@/public/img-contactez-nous.webp";
+import img from "@/public/img-contactez-nous-2.webp";
 import style from "./page.module.css";
 
 export const metadata = {
@@ -16,7 +16,6 @@ export default function ContactezNous() {
         src={img}
         alt="image pour le background"
         className={style.image}
-        priority
       />
       <div className={style.form}>
         <FormContactez />

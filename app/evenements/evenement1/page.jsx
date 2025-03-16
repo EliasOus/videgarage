@@ -7,7 +7,7 @@ import Evenement from "@/components/Evenement";
 import BannerImage from "@/components/BannerImage";
 
 export const metadata = {
-  title: "Événement | VideGarage",
+  title: "Vente de déménagement | VideGarage",
   description:
     "Consultez les détails de notre événement de vente au garage, y compris les articles disponibles, la date, l'heure et l'emplacement.",
 };
