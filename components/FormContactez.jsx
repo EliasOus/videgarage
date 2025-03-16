@@ -16,9 +16,9 @@ import { useActionState } from "react";
  * Cette fonction prend en entrée l'état précédent du formulaire et les données soumises via `formData`.
  * Elle met à jour l'état avec les erreurs ou les valeurs des champs.
  *
- * @param {object} previeousState - L'état précédent du formulaire.
- * @param {FormData} formData - Les données soumises via le formulaire.
- * @returns {object} - Un objet représentant l'état mis à jour du formulaire avec les erreurs.
+ * @param {object} previeousState
+ * @param {FormData} formData
+ * @returns
  */
 export default function ContactezNous() {
   /**

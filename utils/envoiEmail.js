@@ -1,5 +1,15 @@
 import nodemailer from "nodemailer";
 
+/**
+ * Fonction pour envoyer un email.
+ * Utilise nodemailer pour envoyer un message à une adresse spécifiée avec les informations fournies.
+ * Le message contient le nom de l'expéditeur, son email, l'objet et le corps du message.
+ *
+ * @param {string} nom
+ * @param {string} email
+ * @param {string} objet
+ * @param {string} message
+ */
 export async function envoiEmail(nom, email, objet, message) {
   const transporter = nodemailer.createTransport({
     service: "gmail",

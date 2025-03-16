@@ -9,14 +9,16 @@ export const metadata = {
     "Vous avez des questions ? Contactez-nous pour plus d'informations sur les événements de vente au garage. Nous sommes là pour vous aider !",
 };
 
+/**
+ * Cette page permet à l'utilisateur de soumettre un message de contact via un formulaire.
+ * Lorsque l'utilisateur soumet le formulaire, son message est envoyé pour traitement.
+ *
+ * @returns
+ */
 export default function ContactezNous() {
   return (
     <div className={style.contenaire}>
-      <Image
-        src={img}
-        alt="image pour le background"
-        className={style.image}
-      />
+      <Image src={img} alt="image pour le background" className={style.image} />
       <div className={style.form}>
         <FormContactez />
       </div>
