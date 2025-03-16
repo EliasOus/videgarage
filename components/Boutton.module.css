@@ -6,7 +6,7 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 18px;
+    font-size: clamp(.91rem, 5vw, 1.2vw);
     font-weight: 600;
 }
 

@@ -13,16 +13,22 @@
     transform: translate(-50%, -50%);
     border-radius: 2rem;
     color: #ffffff;
+    padding: 1rem;
 }
 
 .contenaire h1 {
     font-size: 3rem;
 }
 
+
+.contenaire p{
+    text-align: center;
+}
+
 .logo {
     color: rgb(0, 191, 0);
-    width: 8rem;
-    height: 8rem;
+    width: 30vw;
+    height: 30vw;
 }
 
 .body {

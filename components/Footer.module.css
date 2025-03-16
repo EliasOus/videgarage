@@ -10,6 +10,8 @@
 .Image {
     width: 40%;
     height: 40%;
+    min-width: 90px;
+    min-height: 50px;
 }
 
 .info {
