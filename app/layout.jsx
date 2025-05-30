@@ -4,6 +4,8 @@ import style from "./layout.module.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
+import { ThemeProvider } from "next-themes";
+
 //import des font dans google font
 import { Roboto, Lora } from "next/font/google";
 
@@ -35,9 +37,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="fr">
       <body className={style.body}>
-        <Header />
-        <main className={style.main}>{children}</main>
-        <Footer />
+        <ThemeProvider>
+          <Header />
+          <main className={style.main}>{children}</main>
+          <Footer />
+        </ThemeProvider>
       </body>
     </html>
   );

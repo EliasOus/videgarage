@@ -7,6 +7,7 @@ import btnMenu from "@/public/menuButton.png";
 import Boutton from "@/components/Boutton";
 import Link from "next/link";
 import { useState } from "react";
+import ThemeChanger from "@/components/themeChanger"
 
 // Composant pour affiche le Header de tout les pages
 export default function Header() {
@@ -47,6 +48,7 @@ export default function Header() {
           </li>
         </ul>
         <div className={styles.bouttons}>
+          <ThemeChanger />
           <Boutton texte="S'inscrire" />
           <Boutton texte="Se connecter" active={true} />
         </div>
