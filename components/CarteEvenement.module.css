@@ -1,8 +1,7 @@
 .detailEvenement {
-    background-color: white;
     height: 100%;
     width: 40vw;
-    color: black;
+    color: var(--text-color);
     text-shadow: 0 5px 10px black;
     display: flex;
     flex-direction: column;
@@ -120,7 +119,5 @@
 
     .detailEvenement {
         text-shadow: 0 5px 10px rgba(0, 0, 0, 0.40);
-        background-color: rgb(240 248 255 / 60%);
-
     }
 }
