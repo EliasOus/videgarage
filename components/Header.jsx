@@ -1,5 +1,6 @@
 "use client";
 
+import aproposStyle from "@/app/a-propos/page.module.css"
 import styles from "./Header.module.css";
 import Image from "next/image";
 import logo from "@/public/Logo-white.webp";
@@ -18,7 +19,7 @@ export default function Header() {
   };
 
   return (
-    <header className={styles.header}>
+    <header className={`${styles.header} ${aproposStyle.header}`}>
       <div className={styles.logo}>
         <Image src={logo} alt="Logo React" className={styles.Image} priority/>
       </div>
@@ -35,7 +36,7 @@ export default function Header() {
             <Link href="/">Accueil</Link>
           </li>
           <li>
-            <Link href="#">À propos</Link>
+            <Link href="/a-propos">À propos</Link>
           </li>
           <li>
             <Link href="/evenements">Evenements</Link>
@@ -44,7 +45,7 @@ export default function Header() {
             <Link href="/contactez-nous">Contactez Nous</Link>
           </li>
           <li>
-            <Link href="#">FAQ</Link>
+            <Link href="/faq">FAQ</Link>
           </li>
         </ul>
         <div className={styles.bouttons}>

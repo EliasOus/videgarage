@@ -1,0 +1,42 @@
+.container {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px -13px var(--border-color);
+}
+
+.container h1 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.brand {
+    color: #ffb623;
+}
+
+.container h2 {
+    color: #34495e;
+    margin-top: 30px;
+}
+
+.container p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.container ul {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.container ul li {
+    margin-bottom: 8px;
+}
+
+.slogan {
+    margin-top: 40px;
+    text-align: center;
+    font-style: italic;
+    font-size: 1.1rem;
+}

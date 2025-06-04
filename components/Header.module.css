@@ -109,4 +109,9 @@
     .navActive {
         display: flex;
     }
+
+    .bouttons {
+        flex-direction: column;
+        width: 100%;
+    }
 }
