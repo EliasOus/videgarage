@@ -1,37 +1,94 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-### Titre
-Projet Web Vider Garage
-## Getting Started
+# videGarage
 
-First, run the development server:
+**videGarage** est une plateforme simple et intuitive dédiée à la gestion des événements de vente de garage de quartier.  
+Ce projet a été réalisé dans un cadre d'étude et se concentre uniquement sur la partie **frontend**, sans backend.
+
+## 🧾 Description
+
+Ce site permet aux utilisateurs de :
+
+- 📍 **Lister leurs ventes de garage** : Publier les détails d’un événement (date, heure, adresse, articles principaux).
+- 👀 **Consulter les événements** disponibles dans le quartier.
+- 🔍 **Voir un événement spécifique** pour plus de détails.
+- 📬 **Contacter les organisateurs** via une page de contact (le formulaire fonctionne et les emails sont bien reçus via Nodemailer).
+
+> ℹ️ Ce projet est en **français** et ne contient **que le frontend** (pas de base de données ni d'administration).
+
+---
+
+## ⚙️ Fonctionnalités
+
+- ✅ Affichage de tous les événements
+- ✅ Page dédiée à chaque événement
+- ✅ Page "Contactez-nous" fonctionnelle (avec NodeMailer)
+- ✅ Composants React modulaires
+- ✅ Dark mode (CSS)
+
+---
+
+## 🛠️ Stack technique
+
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [NodeMailer](https://nodemailer.com/) (pour l'envoi de mails depuis le formulaire de contact)
+- CSS Modules
+
+---
+
+## 🚀 Installation et lancement
+
+1. Clone le projet :
+
+```bash
+git clone https://github.com/EliasOus/videgarage.git
+cd videGarage
+```
+
+2. Installe les dépendances :
+
+```bash
+npm install
+```
+
+3. Lance le projet :
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> Le site sera disponible par défaut sur : `http://localhost:3000`
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📁 Structure du projet
 
-## Learn More
+Ce projet est un **monorepo frontend uniquement**, organisé autour de composants React et pages Next.js. Il ne contient pas de base de données ni de logique serveur (sauf l'envoi d'email avec Nodemailer).
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 👤 Auteur
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Développé par **Elias Ousameur**
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📌 Remarques
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+> Ce projet a été conçu à des fins pédagogiques. Il ne doit pas être utilisé tel quel en production sans un backend sécurisé.
+
+---
+
+## 🔐 Configuration des variables d'environnement
+
+Pour permettre l'envoi d'emails depuis le formulaire de contact, créez un fichier `.env` à la racine du projet avec les variables suivantes :
+
+```env
+user_Email=VOTRE_EMAIL_ICI
+pass_Email=VOTRE_MOT_DE_PASSE_ICI
+```
+
+Ces identifiants seront utilisés par Nodemailer pour envoyer les messages.
+
+> ⚠️ Assurez-vous de ne **jamais** partager votre fichier `.env` publiquement.
+
+---
