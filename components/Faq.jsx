@@ -41,7 +41,7 @@ export default function Faq() {
   return (
     <>
       <div className={style.faqContainer}>
-        <h1 className={style.title}>Foire aux questions (FAQ)</h1>
+        {/* <h1 className={style.title}>Foire aux questions (FAQ)</h1> */}
         <ul className={style.faqList}>
           {faqs.map((item, index) => (
             <li

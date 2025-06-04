@@ -11,7 +11,7 @@
 }
 
 .boutton:hover {
-    background-color: #ffb623;
+    border: 1px solid #ffb623;
 }
 
 .active {
