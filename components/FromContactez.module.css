@@ -13,10 +13,10 @@
     align-items: center;
     flex-direction: column;
     padding: 1rem;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: var(--bg-color-transparent);
     width: 35rem;
     border-radius: 2rem;
-    color: white;
+    color: var(--text-color);
 }
 
 .contactezNous h2 {
@@ -27,7 +27,6 @@
 .contactezNous span {
     width: 90%;
     border: 1px solid hsla(40, 100%, 57%, 0.7);
-
 }
 
 .form {
@@ -58,9 +57,9 @@
     width: 100%;
     border-radius: .3rem;
     border: none;
-    border-bottom: 1px solid #ffffff8c;
+    border-bottom: 1px solid var(--border-color);
     background: transparent;
-    color: white;
+    color: var(--text-color);
 }
 
 .form h2 {

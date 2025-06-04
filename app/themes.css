@@ -1,5 +1,7 @@
 :root {
     --bg-color: #fff;
+    --bg-color-transparent: rgba(255, 255, 255, 0.7);
+    --border-color: rgba(0, 0, 0, 0.8);
     --bg-color-fill: #fff;
     --text-color-bg-yelow: #121212;
     --text-color: #121212;
@@ -7,6 +9,8 @@
 
 [data-theme="dark"] {
     --bg-color: #ffb623;
+    --bg-color-transparent: rgba(0, 0, 0, 0.8);
+    --border-color: rgba(255, 255, 255, 0.7);
     --bg-color-fill: #121212;
     --text-color-bg-yelow: #121212;
     --text-color: #fff;
