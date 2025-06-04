@@ -31,8 +31,12 @@
 .arcBanner {
     position: absolute;
     z-index: 10;
-    bottom: 0%;
+    bottom: -3%;
     width: 100%;
+}
+
+.arcBanner svg path {
+    fill: var(--bg-color-fill)
 }
 
 .arcBannerJaune {
@@ -59,7 +63,7 @@
 .titre {
     font-size: 3rem;
     text-align: center;
-    padding: 50px 0px 20px 0px;
+    padding: 0px 0px 20px 0px;
 }
 
 .trait {
@@ -82,7 +86,7 @@
 }
 
 @media screen and (max-width: 800px) {
-    .hero{
+    .hero {
         width: 50%;
         min-width: 260px;
     }

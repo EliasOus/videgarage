@@ -1,4 +1,5 @@
 import "./globals.css";
+import "./themes.css"
 
 import style from "./layout.module.css";
 import Header from "@/components/Header";

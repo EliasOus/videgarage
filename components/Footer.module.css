@@ -5,6 +5,7 @@
     background-color: #ffb623;
     padding: 40px 100px;
     gap: 30px;
+    color: var(--text-color-bg-yelow)
 }
 
 .Image {

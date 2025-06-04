@@ -1,7 +1,14 @@
-:root{
-
+:root {
+    --bg-color: #fff;
+    --bg-color-fill: #fff;
+    --text-color-bg-yelow: #121212;
+    --text-color: #121212;
 }
 
-[data-theme = "dark"]{
-    
+[data-theme="dark"] {
+    --bg-color: #ffb623;
+    --bg-color-fill: #121212;
+    --text-color-bg-yelow: #121212;
+    --text-color: #fff;
+
 }

@@ -26,7 +26,7 @@
     z-index: 1;
     width: 2.2em;
     height: 2.2em;
-    background-color: rgb(234, 207, 0);
+    background-color: #ffb623;
     border-radius: 50%;
 
     transition: left 0.5s ease, transform 0.5s ease, background-color 0.5s ease;
@@ -39,8 +39,9 @@
 
 }
 
-[data-theme="dark"] .darkButton {
+[data-theme = "dark"] .darkButton {
     background: linear-gradient(135deg, #0f0f1c, #1a1a2e, #2c2c3a);
     border: none;
     box-shadow: -1px 1px 0px .02em rgb(255 255 255 / 26%);
 }
+
