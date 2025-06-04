@@ -24,7 +24,7 @@ export default function Evenement1() {
           image2={parasole}
           image3={tableaManger}
           themeEvenement={"Vente de déménagement"}
-          contactEvenement={"Contact : Mr Eliyas."}
+          contactEvenement={"Contact : Mr Elias."}
           descriptionEvenement={
             "Tout doit partir ! Électroménagers, meubles, articles de sport, outils et matériel de jardinage. Des prix imbattables !"
           }

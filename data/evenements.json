@@ -1,0 +1,24 @@
+[
+  {
+    "slugs": "Vente de déménagement",
+    "contactEvenement": "Contact : Mr Elias.",
+    "descriptionEvenement": "Tout doit partir ! Électroménagers, meubles, articles de sport, outils et matériel de jardinage. Des prix imbattables !",
+    "adresseEvenement": "Adresse : 23, Caroussel Crescent, Gloucester, Ottawa",
+    "datEvenement": "Date : 8-Fevrier-2025",
+    "imgBg": "/carte1-1.webp",
+    "imgSlide1": "/casseroles.jpeg",
+    "imgSlide2": "/parasole.jpeg",
+    "imgSlide3": "/tableaManger.jpg"
+  },
+  {
+    "slugs": "Vintage & Antiquités",
+    "contactEvenement": "Contact : Mr Anisse.",
+    "descriptionEvenement": "Vente de garage dédiée aux amateurs de vintage. Collection de disques vinyles, objets rétro, meubles anciens et accessoires uniques.",
+    "adresseEvenement": "Adresse : 1720, Blvd Napoleon, Nepean, Ottawa",
+    "datEvenement": "Date : 20-Fevrier-2025",
+    "imgBg": "/carte2-2.webp",
+    "imgSlide1": "/books.jpg",
+    "imgSlide2": "/meubles.jpg",
+    "imgSlide3": "/appareillePhoto.jpg"
+  }
+]
