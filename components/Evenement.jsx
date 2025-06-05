@@ -25,6 +25,8 @@ export default function Evenement({
               src={image0}
               alt={`Image1`}
               className={styles.cssImage}
+              width={1000}
+              height={1000}
               priority
             />
           </div>

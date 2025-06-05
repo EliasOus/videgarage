@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import Image from "next/image";
 import styles from "./Vignette.module.css";
 
@@ -6,7 +6,13 @@ import styles from "./Vignette.module.css";
 export default function Vignette({ source, altDescription, titre }) {
   return (
     <div className={styles.vignette}>
-      <Image src={source} alt={altDescription} className={styles.image} />
+      <Image
+        src={source}
+        alt={altDescription}
+        className={styles.image}
+        width={300}
+        height={300}
+      />
     </div>
   );
 }

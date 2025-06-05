@@ -1,6 +1,7 @@
 [
   {
-    "slugs": "Vente de déménagement",
+    "slug": "Vente-de-demenagement",
+    "titre" : "Vente-de-déménagement",
     "contactEvenement": "Contact : Mr Elias.",
     "descriptionEvenement": "Tout doit partir ! Électroménagers, meubles, articles de sport, outils et matériel de jardinage. Des prix imbattables !",
     "adresseEvenement": "Adresse : 23, Caroussel Crescent, Gloucester, Ottawa",
@@ -11,7 +12,8 @@
     "imgSlide3": "/tableaManger.jpg"
   },
   {
-    "slugs": "Vintage & Antiquités",
+    "slug": "Vintage-et-Antiquites",
+    "titre" : "Vintage & Antiquités",
     "contactEvenement": "Contact : Mr Anisse.",
     "descriptionEvenement": "Vente de garage dédiée aux amateurs de vintage. Collection de disques vinyles, objets rétro, meubles anciens et accessoires uniques.",
     "adresseEvenement": "Adresse : 1720, Blvd Napoleon, Nepean, Ottawa",
