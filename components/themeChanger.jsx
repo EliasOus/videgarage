@@ -8,7 +8,6 @@ export default function ThemeChanger() {
 
   function handleChange(event) {
     setTheme(theme === "light" ? "dark" : "light");
-    console.log("ca marche : " + theme);
   }
 
   return (

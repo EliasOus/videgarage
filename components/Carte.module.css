@@ -19,6 +19,7 @@
     padding: 0px 15px 20px;
     font-weight: bolder;
     text-align: center;
+    text-transform: capitalize;
 }
 
 .carte p {

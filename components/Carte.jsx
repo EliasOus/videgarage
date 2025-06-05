@@ -8,7 +8,12 @@ export default function Carte({ image, titre, description, link }) {
   return (
     <div className={style.carte}>
       <div className={style.containerImage}>
-        <Image src={image} alt="carte des evenements" />
+        <Image
+          src={image}
+          alt="carte des evenements"
+          width={600}
+          height={600}
+        />
         <div className={style.formeImage}>
           {/* <Image src={formImage} alt="forme pour carte" /> */}
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
