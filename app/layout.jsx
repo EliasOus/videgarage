@@ -1,5 +1,5 @@
 import "./globals.css";
-import "./themes.css"
+import "./themes.css";
 
 import style from "./layout.module.css";
 import Header from "@/components/Header";
@@ -14,6 +14,9 @@ export const metadata = {
   title: "VideGarage",
   description:
     "site web pour organiser, découvrir et partager des ventes de garage.",
+  incons: {
+    icon: "/favicon.ico",
+  },
 };
 
 // ajouter la font roboto pour l'utilisé dans les titres
@@ -36,9 +39,9 @@ const lora = Lora({
 // Ce composant définit la structure principale de la page
 export default function RootLayout({ children }) {
   return (
-    <html lang="fr">
+    <html lang="fr" suppressHydrationWarning>
       <body className={style.body}>
-        <ThemeProvider>
+        <ThemeProvider attribute="data-theme" defaultTheme="light">
           <Header />
           <main className={style.main}>{children}</main>
           <Footer />

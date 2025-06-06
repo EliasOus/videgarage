@@ -4,7 +4,7 @@ import { FaSun, FaMoon } from "react-icons/fa";
 import style from "./themeChanger.module.css";
 
 export default function ThemeChanger() {
-  const { theme, setTheme } = useTheme("light");
+  const { theme, setTheme } = useTheme();
 
   function handleChange(event) {
     setTheme(theme === "light" ? "dark" : "light");
