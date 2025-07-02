@@ -3,6 +3,8 @@
 **videGarage** est une plateforme simple et intuitive dédiée à la gestion des événements de vente de garage de quartier.  
 Ce projet a été réalisé dans un cadre d'étude et se concentre uniquement sur la partie **frontend**, sans backend.
 
+🔗 **Démo en ligne** : [https://videgarage.vercel.app](https://videgarage.vercel.app)
+
 ## 🧾 Description
 
 Ce site permet aux utilisateurs de :
